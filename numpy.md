@@ -171,7 +171,7 @@ print(b,'\n',b.T,'\n',b.I)	#原，转置，逆
 
 从**标准正态分布**中返回一个或多个样本值。
 
- ![pytorch_1](picformd\pytorch_1.png)
+ ![pytorch_1](/picformd/pytorch_1.png)
 
 - np.random.normal(size,loc,scale):
 
