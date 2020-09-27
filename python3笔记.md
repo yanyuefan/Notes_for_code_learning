@@ -1,7 +1,8 @@
 # type hint
 
 - [阅读一](https://sikasjc.github.io/2018/07/14/type-hint-in-python/)
-- 
+
+  
 
 #  基础知识
 
@@ -51,7 +52,7 @@ total = ['item_one', 'item_two', 'item_three',
 
 ​	python变量不需要声明，每个变量在使用前必须赋值；Python 中变量就是变量，它没有类型，我们所说的"类型"是变量所指的内存中对象的类型。Python允许你同时为多个变量赋值
 
- ![python_1](F:\机器学习笔记\工具笔记\picformd\python_1.png)
+ ![python_1](\picformd\python_1.png)
 
 ### 标准数据类型：
 
@@ -71,7 +72,7 @@ total = ['item_one', 'item_two', 'item_three',
 
 #### 数值运算
 
-  ![python_2](F:\机器学习笔记\工具笔记\picformd\python_2.png)
+  ![python_2](\picformd\python_2.png)
 
 #### 字符串
 
@@ -88,13 +89,13 @@ paragraph = "这是一个段落，\
 
 ​	字符串的截取的语法格式如下：**变量[头下标:尾下标:步长]**
 
- ![python_3](F:\机器学习笔记\工具笔记\picformd\python_3.png)
+ ![python_3](\picformd\python_3.png)
 
-![python_4](F:\机器学习笔记\工具笔记\picformd\python_4.png)
+![python_4](\picformd\python_4.png)
 
 python中的转义符号‘\’
 
-![python_4](F:\机器学习笔记\工具笔记\picformd\python_4_1.jpg)
+![python_4](\picformd\python_4_1.jpg)
 
 ```python
 print("我叫 %s 今年 %d 岁！"%('小明',10))
@@ -130,7 +131,7 @@ print(d[(1, 2)])	#1
 
 列表被截取后返回一个包含所需元素的新列表：变量[头下标 : 尾下标]
 
- ![python_5](F:\机器学习笔记\工具笔记\picformd\python_5.png)
+ ![python_5](\picformd\python_5.png)
 
 加号 **+** 是列表**连接**运算符，星号 ***是重复**操作
 
@@ -215,7 +216,7 @@ print(d)	#输出字典
 input("\n\n click enter key and then the program exit.")
 ```
 
- ![python_6](F:\机器学习笔记\工具笔记\picformd\python_6.png)
+ ![python_6](\picformd\python_6.png)
 
 - Python可以在同一行中使用多条语句，语句之间使用分号(;)分割
 - 多个语句构成代码组（缩进相同的一组语句）
@@ -223,14 +224,14 @@ input("\n\n click enter key and then the program exit.")
 
 像if、while、def和class这样的**复合语句**，首行**以关键字开始，以冒号(: )结束**，该行之后的一行或多行代码构成代码组。我们将首行及后面的代码组称为一个子句(clause)。
 
- ![python_7](F:\机器学习笔记\工具笔记\picformd\python_7.png)
+ ![python_7](\picformd\python_7.png)
 
 - print输出
 
 
 print输出默认换行，如果不换行在变量末尾加end=""
 
-![python_8](F:\机器学习笔记\工具笔记\picformd\python_8.png)
+![python_8](\picformd\python_8.png)
 
 - in ：在指定的序列中找到值返回 True，否则返回 False
 
@@ -253,7 +254,7 @@ print输出默认换行，如果不换行在变量末尾加end=""
 
 将某个模块中的全部函数导入，格式为： `from somemodule import *`
 
- ![python_9](F:\机器学习笔记\工具笔记\picformd\python_9.png)
+ ![python_9](\picformd\python_9.png)
 
 ## 分支
 
@@ -808,7 +809,7 @@ plt.plot(x,y)
 plt.show()
 ```
 
- ![python_10](F:\机器学习笔记\工具笔记\picformd\python_10.PNG)
+ ![python_10](\picformd\python_10.PNG)
 
 ## Pillow
 
