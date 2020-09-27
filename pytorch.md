@@ -130,6 +130,16 @@ print z.size()
 
 - 将tensor的维度换位
 
+#### squeeze
+
+- 对数据的维度进行压缩或者解压。
+- 去掉维数为1的维度
+
+#### unsqueeze
+
+- 对数据维度进行扩充
+- 指定位置加上维数为一的维度
+
 ## 神经网络
 
 ### 模型参数
@@ -578,7 +588,7 @@ plt.show()
 
 + 对PIL.Image进行裁剪、缩放等操作。
 
-+ 使用Compose将这些预处理方式组成transforms list，对图像进行多种处理
++ 使用Compose将这些预处理方式组成transforms list，对图像进行多种处理 
 
 ## 采样
 
