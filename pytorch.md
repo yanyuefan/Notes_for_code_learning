@@ -199,7 +199,7 @@ ConvTranspose2d(in_channels, out_channels, kernel_size,
                 stride=1, padding=0, output_padding=0, groups=1, bias=True)
 ```
 
-- 二维反卷积层（可视为解卷积，但不是真正的解卷积操作），可以视为计算Conv2d的梯度
+- 二维反卷积层（可视为解卷积，但不是真正的解卷积操作），可以视为**计算Conv2d的梯度**
 - 将一张m * m 的图像放大为 n *ｎ（ｎ＞ｍ）
 - 由于内核的大小，输入的最后的一些列的数据可能会丢失，用户可以进行适当的填充（`padding`操作）。
 - 参数
@@ -212,6 +212,10 @@ ConvTranspose2d(in_channels, out_channels, kernel_size,
   - dilation(`int` or `tuple`, `optional`) – 卷积核元素之间的间距
   - groups(`int`, `optional`) – 从输入通道到输出通道的阻塞连接数
   - bias(`bool`, `optional`) - 如果`bias=True`，添加偏置
+
+### Linear
+
+
 
 # pytorch基础
 
