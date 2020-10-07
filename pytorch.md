@@ -322,6 +322,44 @@ result:
   - 神经网络层中的权值w的tensor为叶子节点；自己定义的tensor是叶子节点
   - [辅助阅读1](https://zhuanlan.zhihu.com/p/85506092)
 
+##  状态词典
+
+- state_dict
+
+  - 字典对象
+
+  - 将每一层与它的对应参数建立映射关系
+
+  - 生成
+
+    - 定义了model或optimizer之后pytorch自动生成的,可以直接调用，保存state_dict的格式是".pt"或'.pth'的文件
+
+  - 保存
+
+    - ```python
+      torch.save(model.state_dict(), PATH)
+      ```
+
+  - 加载
+
+    - ```python
+      model = TheModelClass(*args, **kwargs)
+      model.load_state_dict(torch.load(PATH))
+      model.eval()
+      ```
+
+      - model.eval() 很重要
+      - "dropout层"及"batch normalization层"在"训练(training)模态"与"评估(evalution)模态"下有不同的表现形式
+
+    - 加载某一层的state
+
+      - ```python
+        conv1_weight_state = torch.load('./model_state_dict.pt')['conv1.weight']
+        ```
+
+- [阅读](https://www.cnblogs.com/marsggbo/p/12075356.html)
+- 
+
 ## `torch.nn`和`torch.nn.functional`
 
 ```python
