@@ -647,9 +647,19 @@ plt.show()
 
 - 对于一幅尺寸为`M*N`图像I，对其进行s倍下采样，即得到`(M/s)*(N/s)`尺寸的得分辨率图像
 
-# torch常用库
+# 可视化
 
-## Numpy
+## pytorch
+
+- [网络结构可视化](https://blog.csdn.net/dcrmg/article/details/103014890)
+
+- [训练可视化](https://zhuanlan.zhihu.com/p/159149695)
+
+- [TensorboardX](https://zhuanlan.zhihu.com/p/54947519)
+
+  
+
+# torch常用库
 
 ## SciPy
 
@@ -662,6 +672,14 @@ SciPy 包含的模块有最优化、线性代数、积分、插值、特殊函�
 **简介**
 
 Matplotlib 是 Python 编程语言及其数值数学扩展包 NumPy 的可视化操作界面。它为利用通用的图形用户界面工具包，如 Tkinter, wxPython, Qt 或 GTK+ 向应用程序嵌入式绘图提供了应用程序接口（API）。
+
+### pyplot
+
+- 图例
+
+  - ```python
+     plt.legend
+    ```
 
 # 国内镜像源
 
