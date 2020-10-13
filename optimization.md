@@ -1,6 +1,0 @@
-## RMSprop
-
-
-
-## Adam
-
